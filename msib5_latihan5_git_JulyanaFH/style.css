@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #101010;
+    color: white;
+}
+
+.tabel {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.tanda {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.tambah {
+    border: white 1px solid;
+    padding: 20px;
+    font-size: 25px;
+    border-spacing: 20px;
+    border-radius: 10px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.tampilkan {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.tampilkan table tr td {
+    padding: 25px;
+}
+
+.DM {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.DM a {
+    text-decoration: none;
+    color: red;
+}
+
+.hapus {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
